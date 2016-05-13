@@ -22,6 +22,12 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
+    $("#flipo").click(function(){
+        $("#panelo").slideToggle("slowo");
+    });
+});
+
+$(document).ready(function(){
     $("#flip2").click(function(){
         $("#panel2").slideToggle("slow");
     });
